@@ -1,4 +1,6 @@
-@import "./components/product_list", "./components/product";
+@import "./base/base";
+@import "./components/product_list", "./components/product",
+  "./components/CollectionPreview", "./components/collectionItem";
 
 // pages styles
 @import "./pages/homepage";
