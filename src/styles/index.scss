@@ -1,6 +1,7 @@
 @import "./base/base";
-@import "./components/product_list", "./components/product",
-  "./components/CollectionPreview", "./components/collectionItem";
+@import "./components/header", "./components/product_list",
+  "./components/product", "./components/CollectionPreview",
+  "./components/collectionItem";
 
 // pages styles
 @import "./pages/homepage";

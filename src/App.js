@@ -1,10 +1,14 @@
 import React from "react";
 import Routes from "./config/routes";
+import Header from "./components/Header/Header";
 
 function App() {
   return (
     <main>
-      <Routes />
+      <Header />
+      <section>
+        <Routes />
+      </section>
     </main>
   );
 }
