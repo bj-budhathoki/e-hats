@@ -1,7 +1,7 @@
-@import "./base/base";
+@import "./base/variables", "./base/base";
+@import "./abstract/mixins";
 @import "./components/header", "./components/product_list",
   "./components/product", "./components/CollectionPreview",
-  "./components/collectionItem";
-
-// pages styles
-@import "./pages/homepage";
+  "./components/collectionItem", "./components/signin",
+  "./components/form-input", "./components//custom-buttom"; // pages styles
+@import "./pages/homepage", "./pages/signInAndSignUp";
