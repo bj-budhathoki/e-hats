@@ -1,8 +1,8 @@
 import firebase from "firebase/app";
 import "firebase/firestore";
 import "firebase/auth";
-
-const config = {};
+import { config } from "../config/keys";
+// const config = process.env.REACT_APP_FIREBASE_CONFIG;
 
 firebase.initializeApp(config);
 export const auth = firebase.auth();
