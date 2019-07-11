@@ -3,7 +3,7 @@ import Routes from "./config/routes";
 import Header from "./components/Header/Header";
 import { connect } from "react-redux";
 import { auth, createUserProfileDocument } from "./firebase/firebase.utils";
-import { setCurrentUser } from "./actions/userAction";
+import { setCurrentUser } from "./redux/user/user.actions";
 class App extends React.Component {
   unsubscribeFromAuth = null;
   componentDidMount() {
