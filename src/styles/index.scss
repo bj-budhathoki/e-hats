@@ -4,5 +4,6 @@
   "./components/product", "./components/CollectionPreview",
   "./components/collectionItem", "./components/signin", "./components/signUp",
   "./components/cart_icon", "./components/cart_tem", "./components/form-input",
-  "./components//custom-buttom"; // pages styles
-@import "./pages/homepage", "./pages/signInAndSignUp";
+  "./components//custom-buttom", "./components/checkout";
+// pages styles
+@import "./pages/homepage", "./pages/signInAndSignUp", "./pages/checkout";
